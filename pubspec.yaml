@@ -1,0 +1,38 @@
+name: qr_barcode_scanner
+description: >-
+  Modern, lightweight, zero-dependency real-time QR & barcode scanner library
+  with 5 animated viewfinder layouts, polygon tracking, and semantic parsing.
+version: 1.0.0
+homepage: https://humanize.id
+repository: https://github.com/andikpbw/qr_barcode_scanner
+issue_tracker: https://github.com/andikpbw/qr_barcode_scanner/issues
+funding:
+  - https://humanize.id
+
+topics:
+  - qr-code
+  - barcode
+  - scanner
+  - animation
+  - widgets
+
+environment:
+  sdk: ^3.8.0
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+screenshots:
+  - description: 'Animated real UI demonstration cycling through all 5 QR & Barcode scanner viewfinder layouts in a mobile frame.'
+    path: doc/assets/demo_showcase.gif
+  - description: 'Real UI showcase of Cyber Neon and Morphing Pulse QR & Barcode scanner layouts in mobile frames.'
+    path: doc/assets/preview_neon_pulse.png
+  - description: 'Real UI showcase of Holographic Grid, Minimal Glass, and Industrial HUD scanner layouts.'
+    path: doc/assets/preview_holo_glass_hud.png

@@ -1,0 +1,19 @@
+name: qr_barcode_scanner_example
+description: Interactive studio showcasing all 5 animated viewfinder layouts in qr_barcode_scanner.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.8.0
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_barcode_scanner:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
