@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:qr_barcode_scanner/qr_barcode_scanner.dart';
+import 'package:flutter_qr_barcode_scanner/flutter_qr_barcode_scanner.dart';
 
 void main() {
   runApp(const QrScannerStudioApp());

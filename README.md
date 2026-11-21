@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/andikpbw/qr_barcode_scanner/main/doc/assets/medal_banner.png" alt="#1 Flutter Library — Real-Time QR & Barcode Scanner Studio" width="100%" />
 </p>
 
-<h1 align="center">qr_barcode_scanner</h1>
+<h1 align="center">flutter_qr_barcode_scanner</h1>
 
 <p align="center">
   <strong>Modern, lightweight, zero-dependency real-time QR &amp; Barcode Scanner library for Flutter.</strong><br/>
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://pub.dev/packages/qr_barcode_scanner"><img src="https://img.shields.io/pub/v/qr_barcode_scanner.svg?color=00F5D4&style=flat-square" alt="Pub Version" /></a>
-  <a href="https://pub.dev/packages/qr_barcode_scanner/score"><img src="https://img.shields.io/pub/points/qr_barcode_scanner?color=10B981&style=flat-square" alt="Pub Points" /></a>
+  <a href="https://pub.dev/packages/flutter_qr_barcode_scanner"><img src="https://img.shields.io/pub/v/flutter_qr_barcode_scanner.svg?color=00F5D4&style=flat-square" alt="Pub Version" /></a>
+  <a href="https://pub.dev/packages/flutter_qr_barcode_scanner/score"><img src="https://img.shields.io/pub/points/flutter_qr_barcode_scanner?color=10B981&style=flat-square" alt="Pub Points" /></a>
   <a href="https://github.com/andikpbw/qr_barcode_scanner/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-6366F1.svg?style=flat-square" alt="MIT License" /></a>
   <img src="https://img.shields.io/badge/dependencies-0-F59E0B.svg?style=flat-square" alt="Zero Dependencies" />
   <img src="https://img.shields.io/badge/platforms-Android%20%7C%20iOS%20%7C%20Web%20%7C%20Desktop-0EA5E9.svg?style=flat-square" alt="Platforms" />
@@ -21,10 +21,10 @@
 
 ## Live Real-UI Animation Preview
 
-All previews below are captured directly from the live `qr_barcode_scanner` widget engine running inside mobile device frames:
+All previews below are captured directly from the live `flutter_qr_barcode_scanner` widget engine running inside mobile device frames:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andikpbw/qr_barcode_scanner/main/doc/assets/demo_showcase.gif" alt="Real UI Animation Showcase of all 5 qr_barcode_scanner viewfinder layouts in a mobile frame" width="340" />
+  <img src="https://raw.githubusercontent.com/andikpbw/qr_barcode_scanner/main/doc/assets/demo_showcase.gif" alt="Real UI Animation Showcase of all 5 flutter_qr_barcode_scanner viewfinder layouts in a mobile frame" width="340" />
 </p>
 
 ### All 5 Signature Viewfinder Layouts in Real Mobile Frames
@@ -39,7 +39,7 @@ All previews below are captured directly from the live `qr_barcode_scanner` widg
 
 ---
 
-## Why `qr_barcode_scanner`?
+## Why `flutter_qr_barcode_scanner`?
 
 - **Zero External Dependencies & Flutter 3.50+ Future-Proof**: Built purely on `package:flutter/widgets.dart` — zero deprecated `package:flutter/material.dart` or `package:flutter/cupertino.dart` imports. Drop it seamlessly into apps using `package:material_ui/material_ui.dart`, `package:cupertino_ui/cupertino_ui.dart`, legacy Material, or custom `WidgetsApp` design systems across **Android, iOS, Web, macOS, Windows, and Linux**.
 - **5 Signature Animated Viewfinder Layouts (`QrScannerLayout`)**:
@@ -62,7 +62,7 @@ All previews below are captured directly from the live `qr_barcode_scanner` widg
 
 ```yaml
 dependencies:
-  qr_barcode_scanner: ^1.0.0
+  flutter_qr_barcode_scanner: ^1.0.0
 ```
 
 Run:
@@ -77,7 +77,7 @@ flutter pub get
 
 ```dart
 import 'package:flutter/widgets.dart';
-import 'package:qr_barcode_scanner/qr_barcode_scanner.dart';
+import 'package:flutter_qr_barcode_scanner/flutter_qr_barcode_scanner.dart';
 
 class ProductScannerScreen extends StatefulWidget {
   const ProductScannerScreen({super.key});
@@ -138,7 +138,7 @@ QrBarcodeScannerView(layout: QrScannerLayout.industrialHud)
 
 ## Feeding Live Camera Frames (`QrScannerController` & `QrScanFrame`)
 
-`qr_barcode_scanner` decouples its real-time decoding engine and animated UI from heavy platform-locked camera plugins, so you can feed frames from any camera source (`camera`, `camerax`, `avfoundation`, WebRTC, or desktop USB webcams) without native dependency conflicts:
+`flutter_qr_barcode_scanner` decouples its real-time decoding engine and animated UI from heavy platform-locked camera plugins, so you can feed frames from any camera source (`camera`, `camerax`, `avfoundation`, WebRTC, or desktop USB webcams) without native dependency conflicts:
 
 ```dart
 // Decode a 32-bit RGBA, BGRA, YUV420 (Y-plane), or Grayscale camera buffer in real time:

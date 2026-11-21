@@ -1,6 +1,6 @@
 ## 1.0.0
 
-* Initial stable release of `qr_barcode_scanner`.
+* Initial stable release of `flutter_qr_barcode_scanner`.
 * **Zero External Dependencies & Flutter 3.50+ Future-Proof**: Built purely on `package:flutter/widgets.dart` with zero deprecated `package:flutter/material.dart` or `package:flutter/cupertino.dart` imports.
 * **Real-Time Multi-Format Detection & Decoding Engine (`QrBarcodeDecoder`)**:
   * Pure-Dart real-time pixel & matrix decoding for **QR Code** (2D matrix with finder pattern localization, perspective grid sampling, and mask reversal), **EAN-13**, **EAN-8**, **UPC-A**, **UPC-E**, **Code-128**, **Code-39**, **ITF (Interleaved 2 of 5)**, and **Codabar**.

@@ -1,4 +1,4 @@
-name: qr_barcode_scanner
+name: flutter_qr_barcode_scanner
 description: >-
   Modern, lightweight, zero-dependency real-time QR & barcode scanner library
   with 5 animated viewfinder layouts, polygon tracking, and semantic parsing.

@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
 import 'package:flutter/widgets.dart';
+import 'package:flutter_qr_barcode_scanner/flutter_qr_barcode_scanner.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:qr_barcode_scanner/qr_barcode_scanner.dart';
 
 void main() {
   group(
